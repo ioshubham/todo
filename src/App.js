@@ -1,25 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
+/*import FirstComponent from './Components/learning-example/FirstComponent'
+import {FifthComponent} from './Components/learning-example/FirstComponent' // {} braces tell its not a default import
+import SecondComponent from './Components/learning-example/SecondComponent';
+import ThirdComponent from './Components/learning-example/ThirdComponent';
+import ForthComponent from './Components/learning-example/ForthComponent';
+import LearnJavaScript from './Components/learning-example/LearnJavaScript'; */
+import Counter from './Components/counter/Counter';
 
-function App() {
+/*function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FirstComponent></FirstComponent>
+      <SecondComponent></SecondComponent>
+      <ThirdComponent></ThirdComponent>
+      <ForthComponent></ForthComponent>
+      <FifthComponent></FifthComponent>
+      <LearnJavaScript></LearnJavaScript>
+
     </div>
   );
+}*/
+
+
+function App() {
+  return(
+    <div>
+    <Counter />
+
+
+    </div>
+  
+  )
 }
+
+/*function PlayingWithProps(properties) {
+
+  console.log(properties)
+  console.log(properties.property1)
+  console.log(properties.property2)
+
+  return (
+    <div>Props</div>
+  )
+} */
 
 export default App;
