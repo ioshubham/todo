@@ -6,6 +6,7 @@ import ThirdComponent from './Components/learning-example/ThirdComponent';
 import ForthComponent from './Components/learning-example/ForthComponent';
 import LearnJavaScript from './Components/learning-example/LearnJavaScript'; */
 import Counter from './Components/counter/Counter';
+import TodoApp from './Components/todo/TodoApp'
 
 /*function App() {
   return (
@@ -25,7 +26,8 @@ import Counter from './Components/counter/Counter';
 function App() {
   return(
     <div>
-    <Counter />
+      <TodoApp/>
+    {/* <Counter />  cntrl+/ */}  
 
 
     </div>
